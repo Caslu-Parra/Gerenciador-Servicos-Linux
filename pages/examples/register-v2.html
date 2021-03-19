@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>S-M-S | Registration Page (v2)</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition register-page">
+  <div class="register-box">
+    <div class="card card-outline card-dark">
+      <div class="card-header text-center">
+        <a href="../../index2.html" class="h1"><b>C</b>adastro</a>
+      </div>
+      <div class="card-body">
+        <p class="login-box-msg">Casdatre um novo usuário</p>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" name="username" id="username" placeholder="Username">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="userpasswd" id="userpasswd" placeholder="Senha">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="userpasswd2" id="userpasswd2"
+            placeholder="Digite novamente a senha">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-14">
+          <button type="bottum" class="btn btn-success btn-block" onclick="registrar()">Cadastrar</button>
+        </div>
+        <hr>
+        <div class="row col-12">
+          <span class="text-center"> Já pussui conta? <a href="login-v2.html">Clique aqui</a> </span>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- </form> -->
+    </div>
+    <!-- /.form-box -->
+  </div><!-- /.card -->
+  </div>
+  <!-- /.register-box -->
+
+  <!-- jQuery -->
+  <script src="../../plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/adminlte.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="../../dist/js/api/auth.js"></script>
+</body>
+
+</html>
